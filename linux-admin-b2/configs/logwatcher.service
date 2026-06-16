@@ -1,0 +1,32 @@
+# ============================================================
+# Fichier  : logwatcher.service
+# Auteur   : Prénom NOM
+# Date     : YYYY-MM-DD
+# Desc     : Service systemd pour la surveillance SSH
+# Deploy   : sudo cp configs/logwatcher.service /etc/systemd/system/
+#            sudo systemctl daemon-reload
+#            sudo systemctl enable --now logwatcher
+# ============================================================
+
+[Unit]
+Description=            # TODO : description claire du service
+Documentation=          # TODO : URL ou chemin vers la documentation (optionnel)
+After=                  # TODO : dépendances (network.target syslog.target)
+
+[Service]
+Type=                   # TODO : type approprié pour une boucle infinie
+User=                   # TODO : utilisateur sous lequel tourne le service
+ExecStart=              # TODO : chemin absolu vers logwatcher.sh
+Restart=                # TODO : politique de redémarrage en cas d'échec
+RestartSec=             # TODO : délai avant redémarrage
+StandardOutput=         # TODO : destination des logs stdout
+StandardError=          # TODO : destination des logs stderr
+SyslogIdentifier=       # TODO : identifiant dans journald
+
+# Optionnel – Hardening (bonus)
+# NoNewPrivileges=yes
+# ProtectSystem=strict
+# PrivateTmp=yes
+
+[Install]
+WantedBy=               # TODO : target de démarrage

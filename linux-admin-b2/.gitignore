@@ -1,0 +1,18 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+*~
+
+# Fichiers de backup SSH (ne jamais commiter une clé privée !)
+*.pem
+*.key
+id_rsa
+id_ed25519
+*.bak
+
+# Logs locaux (les logs réels vont dans reports/ sous forme de captures)
+*.log
+
+# Éditeurs
+.vscode/
+.idea/
