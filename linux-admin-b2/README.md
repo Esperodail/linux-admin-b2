@@ -14,7 +14,6 @@
 | **Barème** | 100 points + 10 bonus |
 | **Documentation** | Autorisée (`man`, docs officielles en ligne) |
 
-> ⚠️ Toute communication entre étudiants entraîne la note **0**.  
 > ⚠️ Les commits doivent être créés **aujourd'hui** — tout commit antérieur invalide le rendu.
 
 ---
