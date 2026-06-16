@@ -8,7 +8,7 @@
 
 | | |
 |---|---|
-| **Durée** | Journée complète — 8h30 → 17h00 |
+| **Durée** | Journée complète — 8h00 → 17h15 |
 | **Format** | Travail **individuel**, en distanciel |
 | **Rendu** | Dépôt GitHub **public**, lien soumis avant **17h00** |
 | **Barème** | 100 points + 10 bonus |
